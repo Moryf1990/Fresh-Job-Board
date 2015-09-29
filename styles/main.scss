@@ -1,0 +1,72 @@
+.tipsheader {
+	text-decoration: underline;
+	text-align: center;
+}
+
+.tipsparagraph {
+	text-align: center;
+	font-size: 1.6em;
+}
+
+.formheader {
+	font-size: 2em;
+}
+
+.formtitles {
+	font-size: 1.5em;
+	margin-bottom: 0em;
+}
+
+.forminput { 
+	height: 2em;
+	width: 100%;
+}
+
+.descriptioninput {
+	height: 12em;
+	width: 100%;
+}
+
+.submit {
+	float: right;
+	margin-top: 1em;
+	height: 2em;
+	font-size: 2em;
+	background: #2D9A50;
+	color: #F6FDCB;
+}
+
+.image {
+	width: 6em;
+	height: auto;
+	padding-top: 1em;
+}
+
+.list {
+	display: inline;
+	text-decoration: none;
+	margin-left: 1em;
+	font-weight: bold;
+	color: grey;
+}
+
+.list1 {
+	display: inline;
+	margin-left: 0em;
+	color: #001D00;
+	font-weight: bold;
+	font-size: 2em;
+	text-align: center;
+}
+
+.list a {
+	text-decoration: none;
+	color: #404040;
+	text-align: center;
+}
+
+.ul {
+	border-top: 1em solid #404040;
+	text-align: center;
+}
+
