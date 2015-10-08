@@ -1,10 +1,12 @@
 var React = require('react');
+var Backbone=require('backbone');
 var JobFormComponent = require('./JobFormComponent.js');
 
 module.exports=React.createClass ({
 	render: function() {
 		return (
-			<div>
+			<div className="col-sm-6">	
+				<div id="TipsId">			
 					<h3 className="tipsheader">Tips for your job posting</h3>
 					<p className="tipsparagraph"><strong>Add Keywords</strong> because the majority of
 					candidates search for available positions using keywords, make sure you use all relevant 
@@ -17,12 +19,12 @@ module.exports=React.createClass ({
 					<p className="tipsparagraph"><strong>Expand Your Location </strong> Do not limit your job posting to a 
 					restricted area around the job's location. Make sure to include surrounding cities and metropolitan
 					areas in your searches.
-				    </p>
-				    <p className="tipsparagraph"><strong>Discuss Compensation</strong> Even though you may not want to 
-				    give an exact compensation, give a range. Make sure to point out any bonuses, commissions, or 
-				    non-monetary compensation, as well. 
-				    </p>
-			
+					</p>
+					<p className="tipsparagraph"><strong>Discuss Compensation</strong> Even though you may not want to 
+					give an exact compensation, give a range. Make sure to point out any bonuses, commissions, or 
+					non-monetary compensation, as well. 
+					</p>
+				</div>						
 			</div>
 		);
 	}

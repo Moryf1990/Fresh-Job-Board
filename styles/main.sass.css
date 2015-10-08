@@ -1,13 +1,16 @@
 .tipsheader {
   text-decoration: underline;
-  text-align: center; }
+  text-align: center;
+  font-size: 1.8em; }
 
 .tipsparagraph {
   text-align: center;
-  font-size: 1.6em; }
+  font-size: 1.8em;
+  line-height: 100%; }
 
 .formheader {
-  font-size: 2em; }
+  font-size: 2em;
+  margin-right: 3em; }
 
 .formtitles {
   font-size: 1.5em;
@@ -15,19 +18,23 @@
 
 .forminput {
   height: 2em;
-  width: 100%; }
+  width: 80%;
+  margin-bottom: 4em; }
 
 .descriptioninput {
   height: 12em;
-  width: 100%; }
+  width: 80%; }
 
 .submit {
   float: right;
-  margin-top: 1em;
+  margin-top: -1em;
   height: 2em;
   font-size: 2em;
   background: #2D9A50;
-  color: #F6FDCB; }
+  color: #F6FDCB;
+  border: none;
+  -webkit-border-radius: 0.5em;
+  margin-right: 2.5em; }
 
 .image {
   width: 6em;
@@ -41,13 +48,20 @@
   font-weight: bold;
   color: grey; }
 
+.list2 {
+  display: inline;
+  text-decoration: none;
+  margin-left: 2em;
+  font-weight: bold;
+  color: grey; }
+
 .list1 {
   display: inline;
-  margin-left: 0em;
-  color: #001D00;
+  text-decoration: none;
+  margin-left: 1em;
   font-weight: bold;
-  font-size: 2em;
-  text-align: center; }
+  color: #002708;
+  font-size: 2em; }
 
 .list a {
   text-decoration: none;
@@ -56,4 +70,181 @@
 
 .ul {
   border-top: 1em solid #404040;
-  text-align: center; }
+  text-align: left;
+  padding-left: 5em;
+  background: white;
+  height: 100%;
+  margin-right: -8em;
+  margin-left: -8.5em; }
+
+.title {
+  color: #0B3923;
+  font-size: 1.5em; }
+
+.location {
+  color: #232C1E; }
+
+.description {
+  color: #A4A4A4; }
+
+.button {
+  float: left;
+  background: #F8F9E9;
+  margin-right: 0.5em;
+  border: 2px solid #E5EA9D;
+  margin-bottom: 1em; }
+
+.JobRowHeader1 {
+  display: inline;
+  margin-left: 2em; }
+
+.JobRowHeader2 {
+  display: inline;
+  margin-left: 3.7em; }
+
+.JobInput1 {
+  margin-left: 3em;
+  width: 12em; }
+
+.JobInput2 {
+  margin-left: 2em;
+  width: 12em; }
+
+.JobRowButton {
+  margin-left: 1em;
+  background: #3A9C44;
+  color: #F8F6C6;
+  border: none;
+  width: 8em;
+  -webkit-border-radius: 0.5em; }
+
+.JobRowBorder {
+  border: 2px solid #EFEFEF;
+  margin-top: 3em;
+  margin-left: 2em;
+  width: 95%; }
+
+.JobRowContent {
+  margin-left: 2.5em; }
+
+.datePosted {
+  display: inline;
+  float: right;
+  font-size: 1em;
+  margin-top: -0.1em;
+  margin-right: 4em;
+  color: #D4D4D4; }
+
+.informationbox {
+  background: #FAFBED;
+  height: 100%;
+  border: 1em solid grey;
+  margin-top: 1em; }
+
+.informationHeader {
+  font-size: 2em;
+  padding-top: 1em;
+  padding-left: 1em; }
+
+.informationBorder {
+  border: 1px solid black;
+  width: 85%;
+  margin-left: 2em; }
+
+.informationTitle {
+  font-size: 1.5em;
+  margin-left: 1.5em; }
+
+.informationList {
+  margin-left: 2.5em;
+  font-size: 0.97em; }
+
+.informationButton {
+  width: 80%;
+  margin-left: 3em;
+  height: 3em;
+  background: #666666;
+  color: #fff;
+  border: none;
+  -webkit-border-radius: 0.5em;
+  margin-bottom: 1em; }
+
+#main-body {
+  background-image: url("http://paper-backgrounds.com/textureimages/2012/03/gray-paper-background-cardboard-texture.jpg"); }
+
+.JobFormComponentId {
+  background: #fff;
+  height: 60em;
+  width: 100%;
+  padding-left: 2em;
+  margin-right: 5em;
+  margin-bottom: 1em;
+  border: 1em solid grey; }
+
+#TipsId {
+  background: #fff;
+  height: 100%;
+  width: 100%;
+  border: 1em solid grey; }
+
+.pictureSection {
+  background: white;
+  margin-bottom: 1em;
+  height: 100%;
+  border: 1em solid grey;
+  margin-top: 1em; }
+
+.pictureHeader {
+  font-size: 2em;
+  padding-left: 1em;
+  padding-top: 1em; }
+
+.informationBorder {
+  border-top: 1px solid #D9D9D9;
+  float: left; }
+
+.featured {
+  margin-left: 2.5em;
+  margin-top: 1em;
+  width: 80%; }
+
+.featuredlogo {
+  margin-left: 7em;
+  width: 50%;
+  margin-top: -3em; }
+
+.informationMax {
+  text-align: center;
+  font-size: 3em;
+  color: #1F8E2A; }
+
+.informationLocation {
+  text-align: center;
+  font-size: 1.5em; }
+
+#JobRowId {
+  background: #fff;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  height: 100%;
+  border: 1em solid grey; }
+
+.DetailsPageCompany {
+  font-size: 1em;
+  color: #7D8379; }
+
+#detailsId {
+  background: #fff;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border: 1em solid grey; }
+
+.DetailsPageDescription {
+  margin-top: 1.5em; }
+
+.JobDetailsBorder {
+  border: 2px solid #CDCDCD;
+  width: 95%; }
+
+.JobDetailsText {
+  font-size: 1em; }
